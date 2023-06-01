@@ -26,7 +26,7 @@ header {
 
 .search {
   background-color: transparent;
-  border: 2px solid var(--primary-color);
+  border: 2px solid #fff;
   border-radius: 50px;
   font-family: inherit;
   font-size: 1rem;
@@ -117,3 +117,51 @@ main {
 .movie:hover .overview {
   transform: translateY(0);
 }
+
+/* Este código es una hoja de estilos en CSS que define la apariencia y el diseño de una página web. A continuación, analizaré cada parte del código:
+
+Importación de fuentes:
+
+Se importa la fuente 'Poppins' desde Google Fonts utilizando la regla @import. Se especifica que se deben cargar los pesos 200 y 400 de la fuente, y se establece la propiedad display en 'swap'.
+Variables de color:
+
+Se definen dos variables CSS en la regla :root para los colores primario y secundario. Estas variables se utilizarán posteriormente en otras reglas para establecer colores de fondo, bordes, etc.
+Configuración general:
+
+Se establece la propiedad box-sizing en border-box para que el tamaño total de los elementos incluya el contenido y los bordes, pero no los márgenes.
+Se configura el estilo general del body, incluyendo el color de fondo, la fuente y se elimina el margen predeterminado.
+Encabezado (header):
+
+Se configura el estilo del encabezado, incluyendo el relleno, la alineación de contenido y el color de fondo.
+Campo de búsqueda (search):
+
+Se establece el estilo del campo de búsqueda, incluyendo el color de fondo, el borde, el tamaño de la fuente, el relleno y el color del texto.
+Se utiliza la pseudo-clase ::placeholder para cambiar el color del texto de marcador de posición en el campo de búsqueda.
+Estilos de la sección principal (main):
+
+Se configura la visualización de la sección principal, especificando que los elementos deben mostrarse en una disposición en fila flexible (flex-wrap: wrap) y centrados horizontalmente (justify-content: center).
+Estilos de las películas (movie):
+
+Se establece el tamaño y el margen de las películas, así como el color de fondo, sombra y otros estilos visuales.
+Se utiliza la propiedad position: relative para permitir que los elementos secundarios se posicionen de manera absoluta en relación con el elemento padre.
+Se establece una altura máxima y se utiliza overflow: hidden para recortar el contenido que exceda esa altura.
+Se utiliza border-radius para redondear las esquinas del elemento.
+Estilos de imágenes (movie img):
+
+Se establece que las imágenes de las películas deben ocupar el 100% del ancho disponible.
+Estilos de información de la película (movie-info):
+
+Se configura el estilo de la información de la película, incluyendo el color del texto, la alineación y otros estilos.
+Se utiliza la propiedad display: flex para mostrar los elementos en una fila flexible.
+Se utiliza justify-content: space-between para distribuir el espacio disponible entre los elementos hijos.
+Estilos de la calificación de la película (movie-info span):
+
+Se establece el estilo de la calificación de la película, incluyendo el color de fondo, el relleno, el radio de borde y otros estilos.
+Las clases green, orange y red se utilizan para aplicar diferentes colores según el valor de la calificación.
+Estilos de la descripción (overview):
+Se configura el estilo de la descripción de la película, incluyendo el color de fondo, el relleno, la posición y otros estilos.
+La propiedad transform: translateY(101%) se utiliza para ocultar inicialmente la descripción moviéndola hacia abajo fuera de la vista.
+Se establece una altura máxima y se utiliza overflow-y: auto para habilitar el desplazamiento vertical si el contenido excede la altura máxima.
+Se aplica una transición suave (transition) para animar el despliegue de la descripción.
+Estilo de animación al pasar el cursor por encima (movie:hover .overview):
+Cuando el cursor se sitúa sobre un elemento .movie, se aplica una transformación para mostrar la descripción (translateY(0)) y hacerla visible. */
