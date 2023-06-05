@@ -21,6 +21,7 @@ body {
     width: 500px;
     height: 150px;
     margin-bottom: 15px;
+    padding: 10px;
     border: 2px solid white;
     justify-content: space-evenly;
   }
