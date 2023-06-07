@@ -19,10 +19,12 @@ body {
   .containerImg {
     display: flex;
     width: 500px;
-    height: 150px;
+    height: 250px;
     margin-bottom: 15px;
     padding: 10px;
     border: 2px solid white;
+    align-items: center;
+    justify-content: center;
     justify-content: space-evenly;
   }
 
@@ -31,6 +33,18 @@ body {
     background-color: rgb(131, 226, 223);
     width: 100px;
     height: 30px;
+    border-radius: 10px;
+    font-family: 'Muli', sans-serif;
+    background-image: url('https://svgsilh.com/svg_v2/1084899.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding-left: 30px; 
+  }
+
+  .buttonFav{
+    background-color: rgb(131, 226, 223);
+    width: 100px;
+    height: 60px;
     border-radius: 10px;
     font-family: 'Muli', sans-serif;
     background-image: url('https://svgsilh.com/svg_v2/1084899.svg');

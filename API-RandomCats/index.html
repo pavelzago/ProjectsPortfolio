@@ -8,20 +8,41 @@
   <title>Gatitos aleatorios</title>
 </head>
 <body>
-  <div class="container">
+  <span id="error">Error</span>
+  <section id="GatosRandom" class="container">
     <div>
         <h1 class="title">Gatitos aleatorios</h1>
     </div>
 
     <div class="containerImg">
-        <img id="img1" width="150" alt="Foto gatito aleatorio">
-        <img id="img2" width="150" alt="Foto gatito aleatorio">
-        <img id="img3" width="150" alt="Foto gatito aleatorio">
+      <article>
+        <img id="img1" width="150" height="150" alt="Foto gatito aleatorio">
+        <button class="buttonFav">Guardar En favoritos</button>
+      </article>
+      <article>
+        <img id="img2" width="150" height="150" alt="Foto gatito aleatorio">
+        <button class="buttonFav">Guardar En favoritos</button>
+      </article>
+      <article>
+        <img id="img3" width="150" height="150" alt="Foto gatito aleatorio">
+        <button class="buttonFav">Guardar En favoritos</button>
+      </article>
     </div>
     <div>
         <button class="button" onclick="reload()">Recargar</button>
     </div>
-  </div>
+
+    <section id="favoritos">
+      <h2 class="title">Michis Favoritos</h2>
+      <article>
+        <img id="img1" width="150" alt="Foto gatito aleatorio">
+        <button class="buttonFav">Sacar de favoritos</button>
+      </article>
+    </section>
+
+  </section>
+
+
 
   <script src="./main.js"></script>
 </body>
